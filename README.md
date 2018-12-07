@@ -12,9 +12,9 @@ echo '</tr>';
 
 foreach ($rows_data as $key => $values) {
   echo '<tr>';
-  foreach ($values as $value) {
+  foreach ($values as $key2 => $value) {
 
-   //if ($key=='datatime') {$value = date('d.n.y',$value); }
+   //if ($key2=='datatime') {$value = date('d.n.y',$value); } //If you need to process some columns, for example timestamp
    echo '<td>'.$value.'</td>';
  }
  echo '</tr>';
