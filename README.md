@@ -1,5 +1,5 @@
 # How to output PHP array as a table
-Output array as table
+Example code:
 
 ```
 echo '<table border="1">';
