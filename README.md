@@ -1,4 +1,4 @@
-# array_to_table
+# How to output PHP array as a table
 Output array as table
 
 ```
